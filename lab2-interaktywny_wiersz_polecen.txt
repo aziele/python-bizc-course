@@ -1,0 +1,56 @@
+>>> "World"
+'World'
+>>> 32
+32
+>>> ["World", "Python", "Hello"]
+['World', 'Python', 'Hello']
+>>> lst = ["World", "Python", "Hello"]
+>>> lst[0]
+'World'
+>>> lst[1]
+'Python'
+>>> lst.append("Apple")
+>>> lst
+['World', 'Python', 'Hello', 'Apple']
+>>> len(lst)
+4
+>>> lst.append("W")
+>>> lst
+['World', 'Python', 'Hello', 'Apple', 'W']
+>>> lst.remove("W")
+>>> lst
+['World', 'Python', 'Hello', 'Apple']
+>>> lst.sort()
+>>> lst
+['Apple', 'Hello', 'Python', 'World']
+>>> " "
+' '
+>>> " ".join(lst)
+'Apple Hello Python World'
+>>> "-".join(lst)
+'Apple-Hello-Python-World'
+>>> string = "Hello World Hello"
+>>> string.split()
+['Hello', 'World', 'Hello']
+>>> lst = [5, 2. 3, 10, 1, 4]
+  File "<stdin>", line 1
+    lst = [5, 2. 3, 10, 1, 4]
+                 ^
+SyntaxError: invalid syntax
+>>> lst = [5, 2, 3, 10, 1, 4]
+>>> lst.sort()
+>>> lst
+[1, 2, 3, 4, 5, 10]
+>>> sum(lst)
+25
+>>> min(lst)
+1
+>>> max(lst)
+10
+>>> lst = []
+>>> lst.append('a')
+>>> lst
+['a']
+>>> lst.append('b')
+>>> lst
+['a', 'b']
